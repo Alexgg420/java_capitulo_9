@@ -6,7 +6,7 @@ public class Pizza{
     private String tipo;
     private String estado;
 
-    public Pizza(String tamano, String tipo){
+    public Pizza(String tipo, String tamano){
         this.tipo = tipo;
         this.tamano = tamano;
         this.estado = "pedida";
